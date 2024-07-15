@@ -1,0 +1,258 @@
+/* Global Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Navigation */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+}
+
+.nav-left {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-left li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.nav-left li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 1.2em;
+}
+
+.nav-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.nav-right li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.nav-right li button {
+  background-color: transparent;
+  border: none;
+  color: white;
+  cursor: pointer;
+  font-size: 1em;
+}
+
+.nav-right li button:hover {
+  text-decoration: underline;
+}
+
+/* App Components */
+.auth {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth h1 {
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.auth form {
+  display: flex;
+  flex-direction: column;
+}
+
+.auth input,
+.auth select,
+.auth button {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.auth button {
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.auth button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.auth .error {
+  color: red;
+  margin-top: 10px;
+}
+
+.dashboard {
+  max-width: 800px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.dashboard h1 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.dashboard p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.dashboard button {
+  margin-right: 10px;
+  padding: 10px 20px;
+  font-size: 1em;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.dashboard button:hover {
+  background-color: #0056b3;
+}
+
+.ar-form {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ar-form h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.ar-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+.ar-form label {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+
+.ar-form input,
+.ar-form select,
+.ar-form button {
+  margin-bottom: 10px;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.ar-form button {
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.ar-form button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Profile Page */
+.profile {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.profile h1 {
+  font-size: 2.5em;
+  text-align: center;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.profile p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #555;
+}
+
+.profile .profile-item {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+  padding: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.profile .profile-item:last-child {
+  border-bottom: none;
+}
+
+.profile .profile-item label {
+  font-weight: bold;
+  color: #333;
+}
+
+.profile .profile-item span {
+  color: #666;
+}
+
+/* ARSuccess */
+.ar-success {
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 20px;
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.ar-success h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #28a745;
+}
+
+.ar-success p {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #555;
+}

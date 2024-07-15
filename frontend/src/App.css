@@ -1,0 +1,38 @@
+/* App.css */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+.nav-left,
+.nav-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.nav-left li,
+.nav-right li {
+  margin-right: 20px;
+}
+
+.nav-left li a,
+.nav-right li a,
+.nav-right li button {
+  color: white;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.nav-right li button {
+  background: none;
+  border: none;
+  color: white;
+  cursor: pointer;
+}
